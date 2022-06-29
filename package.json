@@ -1,0 +1,34 @@
+{
+  "name": "cee_leoncioprado_template",
+  "version": "1.0.0",
+  "description": "Taller de Programacion 2022-I, Leoncio Prado",
+  "main": "base.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "babel": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduP217/CEE_LeoncioPrado_Template.git"
+  },
+  "author": "Eduardo Prieto Dev.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduP217/CEE_LeoncioPrado_Template/issues"
+  },
+  "homepage": "https://github.com/EduP217/CEE_LeoncioPrado_Template#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "snowpack": "^3.8.8"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

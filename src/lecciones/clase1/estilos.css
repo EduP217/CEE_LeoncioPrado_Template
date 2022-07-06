@@ -1,0 +1,32 @@
+/* Referenciados de estilos */
+h6 {
+    color: purple;
+}
+
+/* Por ID */
+#heading1 {
+    color: red;
+}
+
+/* Por Atributo Clase */
+.colorazul {
+    color: blue;
+}
+
+/* Por cualquier atributo */
+[title="heading1"] {
+    color: lightgreen;
+}
+
+/* Por Nombre de elemento HTML */
+h5 {
+    color: yellow;
+}
+
+h6 {
+    color: lightcoral;
+}
+
+* {
+    margin: 0;
+}

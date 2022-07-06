@@ -17,60 +17,63 @@
 </head>
 <body>
     <header>
-        <h1>Este es el titulo principal del sitio web</h1>
-        <hgroup>
-            <h1>Heading 1</h1>
-            <h2>Heading 2</h2>
-            <h3>Heading 3</h3>
-            <h4>Heading 4</h4>
-            <h5>Heading 5</h5>
-            <h6>Heading 6</h6>
-        </hgroup>
+        <div class="container">
+            <div class="brand">
+                <img src="/images/logo.png" alt="logo">
+            </div>
+            <div class="account"></div>
+        </div>
     </header>
     <nav>
-        <ul>
-            <li>principal</li>
-            <li>fotos</li>
-            <li>videos</li>
-            <li>contacto</li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li>ACCION</li>
+                <li>AVENTURA</li>
+                <li>FANTASÍA</li>
+                <li>CIENCIA FICCION</li>
+                <li>TERROR</li>
+                <li>POLÍTICO</li>
+            </ul>
+        </div>
     </nav>
     <main>
-        <!-- <section>ñ canción ´ ¨ ! | " ? ¡¿'</section> -->
-        <section>
-            <article>
-                Este es el texto de mi primer mensaje
-            </article>
-            <article>
-                Este es el texto de mi segundo mensaje
-                <figure>
-                    <img src="https://c.pxhere.com/photos/16/e3/plane_airplane_building_skyscraper_tower-101684.jpg!d" alt="photo 1391887">
-                    <figcaption>
-                        Esta es la imagen del primer mensaje
-                    </figcaption>
-                </figure>
-            </article>
-        </section>
-        <aside id="contenido">
-            <ol>
-                <li>Cabecera</li>
-                <li>Cuerpo</li>
-                <li>Pie</li>
-            </ol>
-        </aside>
-        <div>
-            <h1>Contenedor de un separador</h1>
-            <p>
-                Este es un parrafo dentro de un DIV tag
-            </p>
+        <div class="container">
+            <div class="anuncios">
+                <div class="anuncio">
+                    <img src="/images/anuncio1.jpg" alt="anuncio">
+                    <p>
+                        <b>¡50% Descuento!</b> Compra ahora Buzz Lightyear y lo recibirás en 2 días. Valido solo en el distrito de Lima.
+                    </p>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="/images/banner.jpg" alt="banner">
+            </div>
+            <div class="spotlight">
+                <section class="spotlight-item"></section>
+            </div>
+            <div class="novedades">
+                <section class="novedad">
+                    <img src="/images/novedad1.jpg" alt="novedad 1">
+                    <h3>“Obi-Wan Kenobi” (2022): el héroe contra la nostalgia</h3>
+                    <p>
+                        Un acercamiento a los tres primeros episodios de esta nueva entrada en la franquicia de Star Wars. La serie muestra el regreso de Ewan McGregor como el titular maestro Jedi.
+                    </p>
+                </section>
+                <section class="novedad">
+                    <img src="/images/novedad2.jpeg" alt="novedad 2">
+                    <h3>“The other me” (2022): David Lynch y su última producción</h3>
+                    <p>
+                        La cinta escrita y dirigida por Giga Agladze, y producida por David Lynch, atrae por sus secuencias oníricas. Narra la historia de un hombre al que se le diagnostica una rara enfermedad ocular que lo conducirá a una pérdida total de la vista.
+                    </p>
+                </section>
+            </div>
         </div>
     </main>
     <footer>
-        Derechos reservados &copy; 2022
-        <address>
-            <a href="http://www.jdgauchat.com">JD Gauchat</a>
-        </address>
-        <time datetime="2022-07-04" pubdate>publicado 04-07-2022</time>
+        <div class="container">
+            &copy;2022 | Todos los derechos reservados a <u>Eduardo Prieto</u>
+        </div>
     </footer>
 </body>
 </html>

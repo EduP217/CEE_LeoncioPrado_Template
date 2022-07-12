@@ -1,32 +1,35 @@
-/* Referenciados de estilos */
-h6 {
-    color: purple;
-}
-
-/* Por ID */
-#heading1 {
-    color: red;
-}
-
-/* Por Atributo Clase */
-.colorazul {
-    color: blue;
-}
-
-/* Por cualquier atributo */
-[title="heading1"] {
-    color: lightgreen;
-}
-
-/* Por Nombre de elemento HTML */
-h5 {
-    color: yellow;
-}
-
-h6 {
-    color: lightcoral;
-}
-
+/* Estilos Globales */
 * {
     margin: 0;
+    color: brown;
+}
+
+h4 {
+    color: green;
+    letter-spacing: 20px;
+}
+
+/* Estilos por ID */
+#cabecera1 {
+    color: red;
+    letter-spacing: 5px;
+}
+
+/* Estilos por Clase */
+.cabecera-border {
+    color: pink;
+    border: 1px solid gray;
+}
+
+/* Estilos por Atributo */
+[title="Cabecera5"] {
+    color: blue;
+    word-spacing: 20px;
+}
+
+/* Estilos por Pseudo Clase */
+hgroup :nth-child(6) {
+    color: purple;
+    margin: 5px;
+    border-bottom: 1px dashed black;
 }
